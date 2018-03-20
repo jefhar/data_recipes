@@ -1,4 +1,4 @@
-Benjamin Banavige & Karthik Garimella
+Based on work by Benjamin Banavige & Karthik Garimella
 
 # Table of Contents
 
@@ -18,7 +18,7 @@ Benjamin Banavige & Karthik Garimella
 
 # Data Recipes
 
- This repository contains several GES DISC data recipes to demonstrate how to work with Earth Science Data. This repository contains everything a user needs to run a GES DISC Jupyter Notebook on your computer without having to install anything besides docker.
+ This repository contains Jupyter Notebooks for the Python-3-Bootcamp course. This repository contains everything a user needs to run a Python-3-Bootcamp Jupyter Notebook on your computer without having to install anything besides docker.
 
 # How to Install Docker
 
