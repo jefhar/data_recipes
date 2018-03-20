@@ -30,7 +30,7 @@ if docker images | awk -F ' ' '{print $1}' | grep "data_recipes_saved" > /dev/nu
 			docker run -dit --name $con --restart always -p 1234:8888 $img > /dev/null
 		    break
 		elif echo "$answer" | grep -iq "^n" ; then
-			img="karthenjamin/data_recipes"
+			img="jefhar/data_recipes"
 		    con="data_recipes"
 		    docker pull $img
 		    docker run -dit --name $con --restart always -p 1234:8888 $img > /dev/null
@@ -40,7 +40,7 @@ if docker images | awk -F ' ' '{print $1}' | grep "data_recipes_saved" > /dev/nu
 		fi
 	done
 else
-	img="karthenjamin/data_recipes"
+	img="jefhar/data_recipes"
 	con="data_recipes"
 	docker pull $img
 	docker run -dit --name $con --restart always -p 1234:8888 $img > /dev/null

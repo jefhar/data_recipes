@@ -94,7 +94,7 @@ If you see an output of 1, your Mac supports virtualization. If you see an outpu
 
 ## Mac with Virtualization
 
-Right click on [this link](https://raw.githubusercontent.com/karthenjamin/data_recipes/master/startup_mac_virtualization.sh), click "Save Link As..." and save the file to your desktop as "startup_mac_virtualization.sh". Now, we have this `.sh` file saved to the Desktop.
+Right click on [this link](https://raw.githubusercontent.com/jefhar/data_recipes/master/startup_mac_virtualization.sh), click "Save Link As..." and save the file to your desktop as "startup_mac_virtualization.sh". Now, we have this `.sh` file saved to the Desktop.
 
 Open your terminal, and use `cd` ("change directory") to navigate to your Desktop. You can use `ls` ("list") to check what is in your current directory. If you see Desktop in the `ls` output, you can type `cd Desktop` to navigate there. Once at your Desktop, you can again type `ls` and hit enter. You should see `startup_mac_virtualization.sh` in the list. Run the following command to allow this file to be executable:
 
@@ -108,7 +108,7 @@ Assuming Docker has been installed correctly, this command will download the ima
 
 ## Mac without Virtualization
 
-Right click on [this link](https://raw.githubusercontent.com/karthenjamin/data_recipes/master/startup_toolbox.sh), click "Save Link As..." and save the file to your desktop as "startup_toolbox.sh". Now, we have this `.sh` file saved to the Desktop.
+Right click on [this link](https://raw.githubusercontent.com/jefhar/data_recipes/master/startup_toolbox.sh), click "Save Link As..." and save the file to your desktop as "startup_toolbox.sh". Now, we have this `.sh` file saved to the Desktop.
 
 Open the Docker Quickstart Terminal, and use `cd` ("change directory") to navigate to your Desktop. You can use `ls` ("list") to check what is in your current directory. If you see Desktop in the `ls` output, you can type `cd Desktop` to navigate there. Once at your Desktop, you can again type `ls` and hit enter. You should see `startup_toolbox.sh` in the list. Run the following command to allow this file to be executable:
 
@@ -128,7 +128,7 @@ Remember, you have two options to run a docker container with Docker Toolbox for
 
 *Remember, if this is your first time opening Docker Quickstart Terminal, you must first run the Kitematic application to start the VM (then, you may close out of Kitematic).  Afterwards, you will no longer need to run the Kitematic app.*
 
-Right click on [this link](https://raw.githubusercontent.com/karthenjamin/data_recipes/master/windows_startup.sh), click "Save Link As..." and save the file to your desktop as "windows_startup.sh". Now, we have this `.sh` file saved to the Desktop.
+Right click on [this link](https://raw.githubusercontent.com/jefhar/data_recipes/master/windows_startup.sh), click "Save Link As..." and save the file to your desktop as "windows_startup.sh". Now, we have this `.sh` file saved to the Desktop.
 
 Open the Docker Quickstart Terminal, and use `cd` ("change directory") to navigate to your Desktop. You can use `ls` ("list") to check what is in your current directory. If you see Desktop in the `ls` output, you can type `cd Desktop` to navigate there. Once at your Desktop, you can again type `ls` and hit enter. You should see `windows_startup.sh` in the list. Run the following command to allow this file to be executable:
 
@@ -144,7 +144,7 @@ Assuming Docker Toolbox has been installed correctly, this command will download
 ### Kitematic Application
 
 1. Launch the Kitematic app that comes with the installation of Docker Toolbox (you may have to login to your DockerHub account).
-2. From here, search for "karthenjamin/data_recipes" in the "Search for Docker images in Docker Hub" search bar.
+2. From here, search for "jefhar/data_recipes" in the "Search for Docker images in Docker Hub" search bar.
 3. Once you have located this repository, simply click on "Create".
 4. This should start the container; click the expand button on the Web Preview
 5. This should open the Jupyter Notebook and prompt you for a password. Enter: benkarthik
